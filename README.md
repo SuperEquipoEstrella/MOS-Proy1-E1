@@ -1,9 +1,7 @@
 # Proyecto - Entrega 2
-Maria Alejandra Londoño
-
-Angélica Ortiz
-
-María José Amorocho
+Maria Alejandra Londoño,
+Angélica Ortiz,
+María José Amorocho,
 
 El repositorio se organiza de la siguiente manera:
 
@@ -15,7 +13,7 @@ El repositorio se organiza de la siguiente manera:
 - documento distances_all.csv
 - documento Proyecto-Entrega 2
 
-En cada notebook se muestra el desarrollo de cada problema, implementando el modelo correspondiente. Estos notebooks ya están ejecutados, por lo que puede verse la solución sin necesidad de correrlos. Si quisieran probarse, basta con ejecutar lo que hay en ellos (y descargar las dependencias necesarias que se encuentran explicitamente todas allí). 
+En cada notebook se muestra el desarrollo de cada problema, implementando el modelo correspondiente. Estos notebooks ya están ejecutados, por lo que puede verse la solución sin necesidad de correrlos. Si quisieran probarse, basta con ejecutar lo que hay en ellos (y descargar las dependencias necesarias). 
 
 En la carpeta de content se encuentran los datos para cada caso.
 
