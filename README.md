@@ -1,6 +1,8 @@
 # Proyecto - Entrega 2
 Maria Alejandra Londoño
+
 Angélica Ortiz
+
 María José Amorocho
 
 El repositorio se organiza de la siguiente manera:
