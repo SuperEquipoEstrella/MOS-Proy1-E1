@@ -1,26 +1,40 @@
-# Proyecto - Entrega 2
-Maria Alejandra Londoño,
-Angélica Ortiz,
-María José Amorocho,
+# Proyecto A - Entrega 2
+Maria Alejandra Londoño <br> 
+Angélica Ortiz<br>
+María José Amorocho
 
+# Descripción
+Este repositorio forma parte de la segunda entrega del Proyecto A del curso Modelado, Simulación y Optimización. Contiene la implementación y soluciones de tres casos de estudio basados en problemas de ruteo vehicular y asignación de recursos, desarrollados en notebooks de Jupyter.
+
+# Estructura del repositorio
 El repositorio se organiza de la siguiente manera:
 
-- Carpeta content
-- Carpeta solutions
-- problema_A_caso_1.ipynb - Notebook con el caso 1 ejecutado
-- problema_A_caso_2.ipynb- Notebook con el caso 2 ejecutado
-- problema_A_caso_3.ipynb- Notebook con el caso 3 ejecutado
-- documento distances_all.csv
-- documento Proyecto-Entrega 2
+- content/: Datos de entrada para cada caso (clientes, depósitos, vehículos, distancias).
+
+- solutions/: Resultados exportados en formato CSV para cada caso después de ejecutar los modelos.
+
+- `problema_A_caso_1.ipynb`: Notebook con desarrollo y solución del caso 1.
+
+- `problema_A_caso_2.ipynb`: Notebook con desarrollo y solución del caso 2.
+
+- `problema_A_caso_3.ipynb`: Notebook con desarrollo y solución del caso 3.
+
+- `distances_all.csv`: Matriz de distancias usada en el caso 3.
+
+- `Proyecto-Entrega2.pdf`: Informe técnico completo del proyecto.
+
 
 En cada notebook se muestra el desarrollo de cada problema, implementando el modelo correspondiente. Estos notebooks ya están ejecutados, por lo que puede verse la solución sin necesidad de correrlos. Si quisieran probarse, basta con ejecutar lo que hay en ellos (y descargar las dependencias necesarias). 
 
-En la carpeta de content se encuentran los datos para cada caso.
+# Requisitos
+Para ejecutar los notebooks es necesario contar con:
 
-En la carpeta solutions se encuentran las soluciones en archivos .csv para cada caso.
+- Python 3.7 o superior.
 
-En el docuemento distances_all.csv se encuentran los datos de las distancias entre todos los puntos para el caso 3. 
+- Jupyter Notebook o JupyterLab.
 
-El documento Proyecto-Entrega 2 contiene el informe correspondiente al proyecto. 
+- Librerías de Python (instalables vía pip):
 
-
+```bash
+pip install pandas pyomo jupyter openrouteservice folium requests
+```
